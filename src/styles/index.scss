@@ -124,7 +124,9 @@ html {
 
             }
         }
+
     }
+
 
     .mainMenuContainer {
 
@@ -138,7 +140,9 @@ html {
 
 
         .mainMenuList1 {
-
+            width: 85%;
+            @include commCss();
+            justify-content: flex-start;
 
             ul {
                 @include commCss();
@@ -152,7 +156,54 @@ html {
             }
         }
 
+        .mainMenuList2 {
+            width: 15%;
+        }
 
+
+    }
+}
+
+
+// --if scrollHeader class exist chnage header css--
+
+
+
+
+.scrollHeader {
+    grid-template-rows: 90px;
+    position: sticky;
+    top: 0;
+    animation-name: headerDownAni;
+    animation-duration: 1s;
+    z-index: 99999;
+
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+        @include commCss;
+
+        img {
+            width: min(100px, 90%);
+
+            transform: rotate(0deg);
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+}
+
+@keyframes headerDownAni {
+    from {
+        top: -100%;
+    }
+
+    to {
+        top: 0;
     }
 }
 
@@ -174,6 +225,7 @@ html {
         .bannerContent {
 
 
+
             .bannerImg {
                 .imgBox {
                     position: relative;
@@ -182,8 +234,6 @@ html {
                     border: 5px solid $blue;
                     border-radius: 300px 300px 0px 0px;
                     z-index: 999;
-
-
 
                     &::after {
                         content: '';
@@ -205,7 +255,7 @@ html {
                         content: '';
                         width: 40px;
                         height: 40px;
-                        background-color: white;
+                        background-color: $blue;
                         position: absolute;
                         border-radius: 50%;
                         right: -20px;
@@ -226,6 +276,16 @@ html {
                         right: 30px;
                         z-index: -999;
                     }
+                }
+
+                .cir2 {
+                    top: 55%;
+                    right: 180px;
+                    width: 250px;
+                    height: 250px;
+                    position: absolute;
+                    background-color: $lightGray;
+                    border-radius: 50%;
                 }
 
             }
@@ -270,8 +330,22 @@ html {
     margin: 60px 0px;
 
     .aboutUsContainer {
+        position: relative;
 
         .imgBox {
+
+            &::after {
+                content: '';
+                width: 150px;
+                height: 150px;
+                z-index: -99;
+                position: absolute;
+                bottom: 0;
+                left: -60px;
+                background-image: url("../assets/bgelm.png");
+                background-size: cover
+            }
+
 
             @include commCss();
 
@@ -345,7 +419,7 @@ html {
     }
 
     50% {
-        transform: rotate(85deg);
+        transform: rotate(120deg);
     }
 
     100% {
@@ -407,6 +481,45 @@ html {
 
 }
 
+// --------counter---
+
+.counter {
+    color: $blue;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counterHeading {
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 1REM;
+}
+
+
+// ----footer---
+
+.footer {
+
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: url("https://tfhtml.themepul.com/restly/assets/images/footer/footer-bg-map.png");
+    background-size: cover;
+    padding: 20px;
+    @include commCss();
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
 
 // ------media querirs-------
 
@@ -443,6 +556,7 @@ html {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+
     .menu {
         display: none;
     }
@@ -491,7 +605,7 @@ html {
 @media (max-width: 767.98px) {
 
     html {
-        font-size: 60%;
+        font-size: 70%;
     }
 
     .mobileMenu {

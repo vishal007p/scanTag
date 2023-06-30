@@ -1,6 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import DoneIcon from "@mui/icons-material/Done";
 import Slider from "../../component/Slider/Slider";
+import CommanBtn from "../../component/CommanBtn/CommanBtn";
 
 
 
@@ -22,26 +23,23 @@ const AboutUs = () => {
             >
                 <Box
                     sx={{
-                        width: "min(1200px , 100%)",
-
+                      width:'70%',
                         margin: "auto",
 
                     }}
                     className="aboutUsContainer"
                 >
                     <Grid container>
-                        <Grid item xs={12} sm={6} md={6}>
+                        <Grid item xs={12} sm={12} md={6}>
                             <Box className="imgBox">
                                 <img
-                                    src="https://tfhtml.themepul.com/restly/assets/images/about/about-two.jpg"
-                                    alt=""
-                                    height="100%"
-                                    width="100%"
+                                    src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    style={{borderRadius:'250px 250px 0px 0px',width:'80%', height:"650px" }}
                                 />
                             </Box>
                         </Grid>
 
-                        <Grid item xs={12} sm={6} md={6}>
+                        <Grid item xs={12} sm={12} md={6}>
                             <Box className="aboutDetais">
                                 <h6>It Support For Business</h6>
                                 <h1>Preparing for your success trusted source in IT services.</h1>
@@ -79,6 +77,10 @@ const AboutUs = () => {
 
 
                                 </ul>
+
+                                <Box sx={{width:"40%", marginTop:'30px', height:'50px'}}>
+                                    <CommanBtn text="View Details"/>
+                                </Box>
                             </Box>
                         </Grid>
                     </Grid>

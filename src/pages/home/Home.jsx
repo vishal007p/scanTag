@@ -4,6 +4,7 @@ import Services from "../Services/Services";
 import AboutUs from "../aboutUs/AboutUs";
 import Contact from "../contact/Contact";
 import ContactForm from "../contactForm/ContactForm";
+import Portfolio from "../portfolio/Portfolio";
 
 
 
@@ -17,6 +18,7 @@ const Home = () => {
             <AboutUs/>
             <Contact/>
             <ContactForm/>
+            <Portfolio/>
         </>
 
 

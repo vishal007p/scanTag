@@ -10,6 +10,8 @@ const CommanBtn = ({ link, text }) => {
           backgroundColor: "#00C3D4",
           borderRadius: "5px",
           color: "white",
+          fontSize:'1rem',
+          fontWeight:'600',
           ":hover": { backgroundColor: "#00C3D4" },
         }}
       >

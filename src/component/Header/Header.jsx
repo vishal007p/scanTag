@@ -8,14 +8,29 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import { Box } from '@mui/material';
+import { useEffect, useState } from 'react';
 
 
 
 
 const Header = () => {
+
+    const [pageScrollPosition, setPageScrollPosition] = useState(0)
+
+    useEffect(() => {
+        const updatePosition = () => {
+            setPageScrollPosition(window.pageYOffset);
+           
+        }
+        window.addEventListener("scroll", updatePosition);
+        updatePosition();
+        return () => window.removeEventListener("scroll", updatePosition);
+    }, [])
+
     return (
         <>
-            <div className='HeaderContainer'>
+            <div className={`HeaderContainer ${pageScrollPosition > 100 && "scrollHeader"}`}>
 
 
                 {/* --logo-- */}
@@ -75,8 +90,11 @@ const Header = () => {
 
                     <div className='mainMenuList2'>
 
+                        <Box>
+                            <CommanBtn text="Meet With Us" />
 
-                        <CommanBtn text="Meet With Us" />
+                        </Box>
+
 
 
                     </div>
@@ -84,7 +102,7 @@ const Header = () => {
 
 
                     <div className='mobileMenu'>
-                        <MenuOpenIcon sx={{color:'black',fontSize:'3rem'}} />
+                        <MenuOpenIcon sx={{ color: 'black', fontSize: '3rem' }} />
                     </div>
 
 

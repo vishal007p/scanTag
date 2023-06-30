@@ -16,7 +16,7 @@ const InputField = ({placeholder,label}) => {
               height: "100%",
               padding: "16px 30px",
               borderRadius: "5px",
-              border: "2px solid black",
+              border: "2px solid #282828",
               marginTop:'10px'
             }}
           />

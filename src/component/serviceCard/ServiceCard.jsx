@@ -1,24 +1,26 @@
- 
+
 import { Box } from "@mui/material";
 
-const ServiceCard = ({text}) => {
+const ServiceCard = ({ text, img }) => {
   return (
     <>
       <Box
         sx={{
           width: "100%",
-          margin:'auto',
+          margin: 'auto',
           height: "150px",
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
+          justifyContent: 'space-around',
           backgroundColor: "white",
-          borderRadius:'10px',
-       
+          borderRadius: '10px',
+          flexDirection: 'column',
+          overflow: 'hidden'
+
+
         }}
       >
-        {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUwkyE9utt8pGYnpxAxuOkeh_YZBpsMvwkLQ&usqp=CAU" alt="" /> */}
-
+        <img src={img} alt="" style={{ width: '50%', height: '50%' }} />
         <h4>{text}</h4>
       </Box>
     </>
