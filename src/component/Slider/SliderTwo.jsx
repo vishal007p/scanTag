@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
- 
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,6 +10,14 @@ import "swiper/css/pagination";
 // import required modules
 
 import AddIcon from '@mui/icons-material/Add';
+
+
+import Port1 from '../../assets/port1.png';
+import Port2 from '../../assets/port2.png';
+import Port3 from '../../assets/port3.png';
+import Port4 from '../../assets/port4.png';
+import Port5 from '../../assets/port5.png';
+ 
 
 
 const SliderTwo = () => {
@@ -44,32 +52,95 @@ const SliderTwo = () => {
 
                 >
 
-
-                    {Array.from(Array(10)).map((_, index) => (
-                        <>
-
+                 
                             <SwiperSlide>
                                 <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
-                                    <Box sx={{ width: '100%' }}>
-                                        <img src="https://saurabhinfosys.com/wp-content/uploads/2023/03/WALKDOGS-2.png" alt="" style={{ width: '100%', height: "100%" }} />
+                                    <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <img src={Port1} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
                                     </Box>
-                                    <Box sx={{ background: 'white', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                                    <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 25px', borderRadius: '30px' }}>
                                         <Box>
-                                            <span>WALKDOGS</span>
+                                            <span style={{color:'white'}}>ETRANSPORT</span>
                                         </Box>
                                         <Box>
-                                            <AddIcon />
+                                            <AddIcon sx={{color:'white'}}/>
                                         </Box>
 
                                     </Box>
                                 </Box>
-
-
                             </SwiperSlide>
-                        </>
-                    ))}
 
 
+                            <SwiperSlide>
+                                <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                                    <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <img src={Port2} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                                    </Box>
+                                    <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 25px', borderRadius: '30px' }}>
+                                        <Box>
+                                            <span style={{color:'white'}}>EDMISSION ONLINE</span>
+                                        </Box>
+                                        <Box>
+                                            <AddIcon  sx={{color:'white'}}/>
+                                        </Box>
+
+                                    </Box>
+                                </Box>
+                            </SwiperSlide>
+
+
+                            <SwiperSlide>
+                                <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                                    <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <img src={Port3} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                                    </Box>
+                                    <Box sx={{  background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',  padding: '10px 25px', borderRadius: '30px' }}>
+                                        <Box>
+                                            <span style={{color:'white'}}>RHOMBUS</span>
+                                        </Box>
+                                        <Box>
+                                            <AddIcon sx={{color:'white'}}/>
+                                        </Box>
+
+                                    </Box>
+                                </Box>
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                                    <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <img src={Port4} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                                    </Box>
+                                    <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',  padding: '10px 25px', borderRadius: '30px' }}>
+                                        <Box>
+                                            <span style={{color:'white'}}>WMS</span>
+                                        </Box>
+                                        <Box>
+                                            <AddIcon sx={{color:'white'}}/>
+                                        </Box>
+
+                                    </Box>
+                                </Box>
+                            </SwiperSlide>
+
+
+                            <SwiperSlide>
+                                <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                                    <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <img src={Port5} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                                    </Box>
+                                    <Box sx={{  background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',  padding: '10px 25px', borderRadius: '30px' }}>
+                                        <Box>
+                                            <span style={{color:'white'}}>3ENDTSHOP</span>
+                                        </Box>
+                                        <Box>
+                                            <AddIcon sx={{color:'white'}}/>
+                                        </Box>
+
+                                    </Box>
+                                </Box>
+                            </SwiperSlide>
+                        
 
                 </Swiper>
             </Box>

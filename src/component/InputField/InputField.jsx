@@ -1,6 +1,6 @@
-import { Box } from "@mui/material";
+import { Box, InputBase,   } from "@mui/material";
 
-const InputField = ({placeholder,label}) => {
+const InputField = ({placeholder,label, register,type}) => {
   return (
     <>
       <Box sx={{ width: "100%",    }}>
@@ -8,8 +8,8 @@ const InputField = ({placeholder,label}) => {
           <label htmlFor="">{label}</label>
         </Box>
         <Box sx={{ width: "100%" }}>
-          <input
-            type="text"
+          <InputBase
+            type={type}
             placeholder={placeholder}
             style={{
               width: "100%",
@@ -18,7 +18,10 @@ const InputField = ({placeholder,label}) => {
               borderRadius: "5px",
               border: "2px solid #282828",
               marginTop:'10px'
+            
             }}
+            {...register}
+           
           />
         </Box>
       </Box>

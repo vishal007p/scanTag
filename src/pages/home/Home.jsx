@@ -5,6 +5,7 @@ import AboutUs from "../aboutUs/AboutUs";
 import Contact from "../contact/Contact";
 import ContactForm from "../contactForm/ContactForm";
 import Portfolio from "../portfolio/Portfolio";
+import Testimonial from "../testimonial/Testimonial";
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
             <AboutUs/>
             <Contact/>
             <ContactForm/>
+            {/* <Testimonial/> */}
             <Portfolio/>
         </>
 

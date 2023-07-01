@@ -13,7 +13,7 @@ const AboutUs = () => {
             <Box
                 sx={{
                     width: "100%",
-                    padding: "60px",
+                 
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -23,7 +23,7 @@ const AboutUs = () => {
             >
                 <Box
                     sx={{
-                      width:'70%',
+                        width: { md: '70%', sm: '90%', xs: '90%' },
                         margin: "auto",
 
                     }}
@@ -34,7 +34,7 @@ const AboutUs = () => {
                             <Box className="imgBox">
                                 <img
                                     src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                    style={{borderRadius:'250px 250px 0px 0px',width:'80%', height:"650px" }}
+                                    style={{ borderRadius: '250px 250px 0px 0px', width: '80%', height: {md:"650px", sm:'100%',xs:'100%'} }}
                                 />
                             </Box>
                         </Grid>
@@ -78,8 +78,8 @@ const AboutUs = () => {
 
                                 </ul>
 
-                                <Box sx={{width:"40%", marginTop:'30px', height:'50px'}}>
-                                    <CommanBtn text="View Details"/>
+                                <Box sx={{ width: "40%", marginTop: '30px', height: '50px' }}>
+                                    <CommanBtn text="View Details" />
                                 </Box>
                             </Box>
                         </Grid>

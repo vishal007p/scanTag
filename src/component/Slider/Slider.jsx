@@ -25,26 +25,28 @@ const Slider = () => {
                     delay: 2500,
                     disableOnInteraction: false,
                 }}
-                pagination={{
-                    clickable: true,
-                }}
+              
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
                 breakpoints={{
-                    640: {
+                  "@0.00": {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                  },
+                  "@0.75": {
                       slidesPerView: 2,
                       spaceBetween: 20,
-                    },
-                    768: {
-                      slidesPerView: 4,
+                  },
+                  "@1.00": {
+                      slidesPerView: 3,
                       spaceBetween: 40,
-                    },
-                    1024: {
-                      slidesPerView: 5,
+                  },
+                  "@1.50": {
+                      slidesPerView: 4,
                       spaceBetween: 50,
-                    },
-                  }}
+                  },
+              }}
             >
                
                         <SwiperSlide><img src="https://tfhtml.themepul.com/restly/assets/images/client-logo/client-logo-3.png" alt="" /></SwiperSlide>

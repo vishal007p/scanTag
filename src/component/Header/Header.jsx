@@ -21,7 +21,7 @@ const Header = () => {
     useEffect(() => {
         const updatePosition = () => {
             setPageScrollPosition(window.pageYOffset);
-           
+
         }
         window.addEventListener("scroll", updatePosition);
         updatePosition();
@@ -37,6 +37,7 @@ const Header = () => {
                 <div className='logo'>
 
                     <img src={Logo} alt="logo" />
+                    <span>SCAN TAG</span>
                 </div>
 
 
@@ -102,7 +103,7 @@ const Header = () => {
 
 
                     <div className='mobileMenu'>
-                        <MenuOpenIcon sx={{ color: 'black', fontSize: '3rem' }} />
+                        <MenuOpenIcon sx={{ color: 'white', fontSize: '3rem' }} />
                     </div>
 
 
