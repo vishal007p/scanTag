@@ -35,7 +35,7 @@ const ContactForm = () => {
 
                         <Grid item xs={12} sm={12} md={5}>
                             <Box className="ContactImgBox">
-                                <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' ,  }}>
                                     <CallIcon sx={{ backgroundColor: 'white', width: '40px', height: '40px', borderRadius: '50%', padding: '7px' }} />
                                     <h6 style={{ color: 'white', fontSize: '1.6rem', marginLeft: '10px' }} > +012-345-6789</h6>
                                 </Box>

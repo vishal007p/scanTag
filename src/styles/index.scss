@@ -60,11 +60,13 @@ html {
         flex-direction: column;
 
         img {
-            width: min(100px, 90%);
+            width: 70%;
             aspect-ratio: 2/1;
-            transform: rotate(10deg);
+           
+            height: auto;
         }
-        span{
+
+        span {
             color: $blue;
             font-size: 1.5rem;
             margin-top: 10PX;
@@ -146,6 +148,7 @@ html {
 
 
         .mainMenuList1 {
+
             width: 85%;
             @include commCss();
             justify-content: flex-start;
@@ -191,9 +194,8 @@ html {
         @include commCss;
 
         img {
-            width: min(100px, 90%);
+            width: 50%;
 
-            transform: rotate(0deg);
         }
     }
 
@@ -476,6 +478,7 @@ html {
     background-repeat: no-repeat;
     @include commCss();
     align-items: flex-end;
+    height: 550px;
 
 
     div {
@@ -525,10 +528,10 @@ html {
 
 // ----testimonial----
 
-.testimonial{
+.testimonial {
 
 
-    img{
+    img {
         width: 150px;
         height: 150px;
     }
@@ -548,6 +551,10 @@ html {
     .mobileMenu {
         display: none;
     }
+
+    html {
+        font-size: 100%;
+    }
 }
 
 // X-Large devices (large desktops, less than 1400px)
@@ -556,11 +563,19 @@ html {
         display: none;
     }
 
+    html {
+        font-size: 100%;
+    }
+
 }
 
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {
+    html {
+        font-size: 100%;
+    }
+
     .HeaderContainer {
         border: none;
         border-bottom: 1px solid $lightGray;
@@ -576,6 +591,10 @@ html {
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+
+    html {
+        font-size: 80%;
+    }
 
     .menu {
         display: none;
@@ -603,7 +622,7 @@ html {
 
 
 
-        
+
     }
 
     .mainMenuList2 {
@@ -611,9 +630,10 @@ html {
         justify-content: flex-end;
     }
 
-    .HeaderContainer .mainMenuContainer .mainMenuList1{
+    .HeaderContainer .mainMenuContainer .mainMenuList1 {
         display: none;
     }
+
     .mainMenuList2 {
         display: none;
     }
@@ -625,16 +645,18 @@ html {
     .cir {
         display: none;
     }
-    .HeaderContainer .logo img{
+
+    .HeaderContainer .logo img {
         transform: rotate(0deg);
     }
-    .mobileMenu{
+
+    .mobileMenu {
         display: flex;
         align-items: center;
         justify-content: flex-end;
         width: 100%;
     }
-     
+
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -663,4 +685,6 @@ html {
 
 
 // X-Small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    
+}

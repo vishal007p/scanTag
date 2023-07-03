@@ -37,7 +37,7 @@ const Header = () => {
                 <div className='logo'>
 
                     <img src={Logo} alt="logo" />
-                    <span>SCAN TAG</span>
+
                 </div>
 
 

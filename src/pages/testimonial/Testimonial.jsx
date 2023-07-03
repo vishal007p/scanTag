@@ -1,24 +1,27 @@
 import { Box } from "@mui/material";
 import TestimonialCard from "../../component/TestimonialCard/TestimonialCard";
 
- 
+
 const Testimonial = () => {
     return (
 
 
         <>
-        
-        <Box>
-            <TestimonialCard/>
-            
-        </Box>
-        
+
+            <Box sx={{ width: '80%', margin:'auto', }}>
+                <h6 style={{textAlign:'center',color:'#00C3D4',fontSize:'1.6rem'}}>Testimonial</h6>
+                <h2 style={{textAlign:'center',fontSize:'3rem',color:'white',marginTop:'20px'}}>Our Testimonial</h2>
+
+                <TestimonialCard />
+
+            </Box>
+
         </>
 
 
     );
 }
 
- 
+
 
 export default Testimonial;

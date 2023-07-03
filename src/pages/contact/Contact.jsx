@@ -20,21 +20,18 @@ const Contact = () => {
         <>
             <Box className="contactUs">
 
-                <Box sx={{ width: '80%', margin: 'auto', padding: '60px' }} >
+                <Box sx={{ width:{md:'80%',sm:'90%',xs:'90%'}, margin: 'auto', padding: '60px' }} >
                     <Grid container>
                         <Grid item xs={12} sm={6} md={6}>
                             <h6 style={{ color: 'white', fontSize: '1.2rem' }}>It Support For Business</h6>
                             <h2 style={{ fontSize: '2rem', color: 'white', marginTop: '20px' }}>It Support For Business</h2>
-
                         </Grid>
-                        <Grid item xs={12} sm={6} md={6} sx={{display:'flex',alignItems:'center', justifyContent:'flex-end'}}>
-                            <Box sx={{  width:'40%',height:'50px'}}>
+                        <Grid item xs={12} sm={6} md={6} sx={{display:'flex',alignItems:'center', justifyContent:{md:'flex-end',sm:'center',xs:'center'}}}>
+                            <Box sx={{  width:{md:'40%', sm:'100%', xs:'100%'},height:'50px'}}>
                                  <CommanBtn text="View All Services"/>
                             </Box>
                         </Grid>
-
                     </Grid>
-
                 </Box>
 
 

@@ -1,64 +1,117 @@
 import { Box } from "@mui/material";
 import '../../styles/index.scss';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+ 
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+ 
+ 
 
 // import required modules
 
-import AddIcon from "@mui/icons-material/Add";
+// import AddIcon from "@mui/icons-material/Add";
+
+ 
 
 
-import Boy from '../../assets/boy.png'
+import boy from '../../assets/boy.png'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+
 
 const TestimonialCard = () => {
     return (
         <>
-            <Box>
-                <Swiper>
+            <Box sx={{ marginTop: '0px', width: '100%', margin: 'auto', marginBottom:'80px' }}>
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    modules={[Pagination, Navigation]}
+                    className="mySwiper223"
+                >
                     <SwiperSlide>
-                        <Box
-                            sx={{
-                                width: "50%",
-                                height: "100%",
-                                margin: "auto",
-                                backgroundColor: "red",
-                            }}
 
-                            clasName="testimonial"
-                        >
-                            <Box
-                                sx={{  height: "100%", width: "100%", padding: '60px', borderRadius: '20px' }}
-                            >
-                                <p>
-                                    I recently worked with Saurabh Infosys to develop a mobile and
-                                    web app, with landing page for my business and I couldn't be
-                                    happier with the results. The team at Saurabh Infosys was
-                                    incredibly professional, knowledgeable and efficient
-                                    throughout the entire process. They took the time to
-                                    understand my business needs and provided valuable insights
-                                    and suggestions to enhance the functionalities. The end result
-                                    was a high-quality, user-friendly and visually appealing
-                                    interface. I would highly recommend Saurabh Infosys to anyone
-                                    looking for a reliable and effective development partner
-                                    Regards, Aleks
-                                </p>
-                                <br />
-                                <span style={{ background: '#00C3D4', padding: '2px', marginTop: '20px' }}>Aleks</span>
+
+
+                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+
+                            <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
+                                <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
+
                             </Box>
 
 
-                            <img src={Boy} alt="" />
+                            <h6 style={{ textAlign: 'center', color: 'white', fontSize: '1.5rem',marginTop:'20px' }}>Name</h6>
+                            {/* <span style={{color:'white',marginTop:'20px'}}>start</span> */}
+                            <p style={{ textAlign: 'center', color: 'white' ,marginTop:'20px',lineHeight:'30px'}}>Your guidance and expertise was invaluable in solving the programming issue. Your patience and clear explanations made the process so much easier to understand. I truly appreciate your support.
+                                Reema Fahad
+                                Saueabh Infosys.</p>
                         </Box>
+
+
+
                     </SwiperSlide>
+
+
+
                     <SwiperSlide>
-                        <Box sx={{ width: "100%", height: "100%", background: "green" }}>
-                            hiPortfolio
+
+
+
+                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+
+                            <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
+                                <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
+
+                            </Box>
+
+
+                            <h6 style={{ textAlign: 'center', color: 'white', fontSize: '1.5rem',marginTop:'20px' }}>Name</h6>
+                            {/* <span style={{color:'white',marginTop:'20px'}}>start</span> */}
+                            <p style={{ textAlign: 'center', color: 'white' ,marginTop:'20px',lineHeight:'30px'}}>Your guidance and expertise was invaluable in solving the programming issue. Your patience and clear explanations made the process so much easier to understand. I truly appreciate your support.
+                                Reema Fahad
+                                Saueabh Infosys.</p>
                         </Box>
+
+
+
                     </SwiperSlide>
+
+
+
+                    <SwiperSlide>
+
+
+
+                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+
+                            <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
+                                <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
+
+                            </Box>
+
+
+                            <h6 style={{ textAlign: 'center', color: 'white', fontSize: '1.5rem',marginTop:'20px' }}>Name</h6>
+                            {/* <span style={{color:'white',marginTop:'20px'}}>start</span> */}
+                            <p style={{ textAlign: 'center', color: 'white' ,marginTop:'20px',lineHeight:'30px'}}>Your guidance and expertise was invaluable in solving the programming issue. Your patience and clear explanations made the process so much easier to understand. I truly appreciate your support.
+                                Reema Fahad
+                                Saueabh Infosys.</p>
+                        </Box>
+
+
+
+                    </SwiperSlide>
+
+
+
+                    
+               
+
                 </Swiper>
             </Box>
         </>

@@ -3,16 +3,14 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import '../../styles/index.scss';
-import { Autoplay, Pagination, Navigation } from "swiper";
-import "swiper/css";
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
 
 
 
  
 const Slider = () => {
     return (
-
-
 
         <>
 
@@ -26,9 +24,9 @@ const Slider = () => {
                     disableOnInteraction: false,
                 }}
               
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper"
+              
+                modules={[Autoplay,    ]}
+               
                 breakpoints={{
                   "@0.00": {
                       slidesPerView: 1,

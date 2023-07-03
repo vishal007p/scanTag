@@ -20,7 +20,7 @@ const Footer = () => {
                                     alignItems: "center",
                                     justifyContent: "flex-start",
                                     borderRight: "1px solid white",
-                                    padding: "20px",
+                                    padding: {md:"20px",sm:'0px',xs:'0px'},
                                 }}
                             >
                                 <Box
@@ -28,7 +28,7 @@ const Footer = () => {
                                         display: "flex",
                                         alignItems: "center",
                                         justifyContent: "center",
-                                        marginRight: "20px",
+                                        marginRight:{ md:"20px",sm:'0px',xs:'0px'},
                                     }}
                                 >
                                     <CallIcon
@@ -65,7 +65,7 @@ const Footer = () => {
                                     alignItems: "center",
                                     justifyContent: "flex-start",
                                     borderRight: "1px solid white",
-                                    padding: "20px",
+                                    padding:{md:"20px",sm:'0px',xs:'0px'},
                                 }}
                             >
                                 <Box
@@ -110,7 +110,7 @@ const Footer = () => {
                                     alignItems: "center",
                                     justifyContent: "flex-start",
                                     width: "100%",
-                                    padding: "20px",
+                                    padding:{ md:"20px",sm:'0px',xs:'0px'},
                                 }}
                             >
                                 <Box
@@ -159,7 +159,7 @@ const Footer = () => {
                                     alignItems: "flex-start",
                                     justifyContent: "flex-start",
                                     flexDirection: 'column',
-                                    padding: "20px",
+                                    padding: {md:"20px",sm:'0px',xs:'0px'},
                                 }}
                             >
                                 <img
@@ -196,7 +196,7 @@ const Footer = () => {
                                                 fontSize: "2.5rem",
                                                 backgroundColor: "white",
                                                 borderRadius: "50%",
-                                                padding: "6px",
+                                                padding: {md:"20px",sm:'0px',xs:'0px'},
                                             }}
                                         />
                                     </Box>
@@ -218,7 +218,7 @@ const Footer = () => {
 
                         <Grid item xs={12} sm={6} md={3}>
 
-                            <Box sx={{ padding: '20px' }}>
+                            <Box sx={{   padding: {md:"20px",sm:'0px',xs:'0px'},}}>
 
                                 <h6 style={{ color: 'white', fontSize: '1.3rem' }}>Page Links</h6>
 
