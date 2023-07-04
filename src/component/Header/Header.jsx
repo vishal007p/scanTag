@@ -2,7 +2,6 @@
 import '../../styles/index.scss'
 import Logo from '../../assets/logo.png';
 import CommanBtn from '../CommanBtn/CommanBtn';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -32,12 +31,9 @@ const Header = () => {
         <>
             <div className={`HeaderContainer ${pageScrollPosition > 100 && "scrollHeader"}`}>
 
-
                 {/* --logo-- */}
                 <div className='logo'>
-
                     <img src={Logo} alt="logo" />
-
                 </div>
 
 
@@ -49,7 +45,7 @@ const Header = () => {
                             <ul>
                                 <li>Call Us: 548978478</li>
                                 <li>Email us: demo@example.com</li>
-                                <li id='addres'>Our address: 45 Dream street Austria</li>
+
                             </ul>
                         </div>
 
@@ -95,8 +91,6 @@ const Header = () => {
                             <CommanBtn text="Meet With Us" />
 
                         </Box>
-
-
 
                     </div>
 
