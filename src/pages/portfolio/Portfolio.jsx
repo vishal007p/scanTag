@@ -6,7 +6,7 @@ const Portfolio = () => {
 
         <>
 
-            <Box sx={{  display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+            <Box sx={{  display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }} id="portfolio">
 
 
                 <h6 style={{ color: '#00C3D4',fontSize:'1.5rem', }}>Portfolio</h6>

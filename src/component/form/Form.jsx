@@ -74,8 +74,8 @@ const Form = () => {
                     </Grid>
 
                 </Box>
-                <Box sx={{ width: { md: '30%', sm: '60%', xs: '100%' }, marginTop: '70px' }}>
-                    <CommanBtn text="Sand Message" />
+                <Box sx={{ width: { md: '30%', sm: '60%', xs: '100%' }, marginTop: '70px', height:'50px' }}>
+                    <CommanBtn text="Send Message" />
                 </Box>
             </form>
         </>

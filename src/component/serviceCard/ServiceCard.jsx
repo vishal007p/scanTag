@@ -16,11 +16,9 @@ const ServiceCard = ({ text, img }) => {
           borderRadius: '10px',
           flexDirection: 'column',
           overflow: 'hidden'
-
-
         }}
       >
-        <img src={img} alt="" style={{ width: '50%', height: '50%' }} />
+        <img src={img} alt="" style={{ width: '40%', height: '50%', objectFit: 'contain' }} />
         <h4>{text}</h4>
       </Box>
     </>

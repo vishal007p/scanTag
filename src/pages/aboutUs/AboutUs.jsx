@@ -7,19 +7,21 @@ import CommanBtn from "../../component/CommanBtn/CommanBtn";
 
 
 
+
 const AboutUs = () => {
     return (
         <>
             <Box
                 sx={{
                     width: "100%",
-                 
+
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     flexDirection: "column",
                 }}
                 className="AbotUs"
+                id="service"
             >
                 <Box
                     sx={{
@@ -29,18 +31,21 @@ const AboutUs = () => {
                     }}
                     className="aboutUsContainer"
                 >
-                    <Grid container>
+                    <Grid container spacing={2}>
                         <Grid item xs={12} sm={12} md={6}>
                             <Box className="imgBox">
-                                <img
-                                    src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                    style={{ borderRadius: '250px 250px 0px 0px', width: '80%', height: {md:"650px", sm:'100%',xs:'100%'} }}
-                                />
+                                <Box sx={{ width: { md: '80%', sm: '100%', xs: '100%' }, margin: 'auto' }}>
+                                    <img
+                                        src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                        style={{ borderRadius: '250px 250px 0px 0px', width:'100%' }}
+                                    />
+                                </Box>
+
                             </Box>
                         </Grid>
 
                         <Grid item xs={12} sm={12} md={6}>
-                            <Box className="aboutDetais">
+                            <Box className="aboutDetais" >
                                 <h6>It Support For Business</h6>
                                 <h1>Preparing for your success trusted source in IT services.</h1>
                                 <p>
@@ -78,9 +83,7 @@ const AboutUs = () => {
 
                                 </ul>
 
-                                <Box sx={{ width: "40%", marginTop: '30px', height: '50px' }}>
-                                    <CommanBtn text="View Details" />
-                                </Box>
+
                             </Box>
                         </Grid>
                     </Grid>
@@ -90,7 +93,7 @@ const AboutUs = () => {
 
             <Box sx={{ width: '100%', height: '300px', backgroundColor: '#e5eef6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
-                <Box sx={{ width: '60%', margin: 'auto' }}>
+                <Box sx={{ width: { md: '70%', sm: '90%', xs: '90%' }, margin: 'auto' }}>
 
                     <Slider />
 

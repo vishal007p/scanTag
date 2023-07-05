@@ -7,14 +7,14 @@ import NumberCounter from 'number-counter';
 const ContactForm = () => {
     return (
         <>
-            <Box sx={{ backgroundColor: "#282828", marginBottom: '60px' }}>
+            <Box sx={{ backgroundColor: "#282828", marginBottom: '60px' }}  id="contact">
                 <Box
                     sx={{
                         width: { md: "60%", sm: '80%', xs: '100%' },
                         margin: 'auto',
                         backgroundColor: "white",
                         borderRadius: "5px",
-                        padding: "50px",
+                        padding: {md:"50px",sm:'30px',xs:'20px'},
                         display: 'flex',
                         alignItems: 'flex-start',
                         justifyContent: 'center',
@@ -46,8 +46,8 @@ const ContactForm = () => {
 
 
 
-                <Box sx={{ width: '60%', margin: 'auto', paddingBottom: '60px' }}>
-                    <Grid container spacing={2}>
+                <Box sx={{ width: '70%', margin: 'auto', paddingBottom: '60px' }}>
+                    <Grid container spacing={6}>
                         <Grid item xs={12} sm={6} md={3}>
                             <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
                                 <span className="counter"><NumberCounter start={1} end={100} delay={5} />+</span>

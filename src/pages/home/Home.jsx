@@ -18,8 +18,9 @@ const Home = () => {
             <AboutUs/>
             <Contact/>
             <ContactForm/>
-            <Testimonial/>
             <Portfolio/>
+            <Testimonial/>
+          
         </>
 
 

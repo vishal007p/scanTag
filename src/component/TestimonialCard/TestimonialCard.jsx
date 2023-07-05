@@ -22,7 +22,7 @@ import { Navigation, Pagination } from "swiper/modules";
 const TestimonialCard = () => {
     return (
         <>
-            <Box sx={{ marginTop: '0px', width: '100%', margin: 'auto', marginBottom:'80px' }}>
+            <Box sx={{ marginTop: '0px', width: '100%', margin: 'auto',  }} className="testimonail">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -38,7 +38,7 @@ const TestimonialCard = () => {
 
 
 
-                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+                        <Box sx={{ width:'100%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
 
                             <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
                                 <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
@@ -63,7 +63,7 @@ const TestimonialCard = () => {
 
 
 
-                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+                        <Box sx={{ width:'100%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
 
                             <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
                                 <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
@@ -88,7 +88,7 @@ const TestimonialCard = () => {
 
 
 
-                        <Box sx={{ width:'80%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
+                        <Box sx={{ width:'100%', margin:'auto', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '60px' }}>
 
                             <Box sx={{ backgroundColor: 'white', borderRadius: '50%' }}>
                                 <img src={boy} alt="" style={{ width: '80px', height: '80px' }} />
