@@ -18,7 +18,7 @@ import c6 from '../../assets/c6.png'
 
 
 const Slider = () => {
-
+    
     return (
 
         <>
@@ -26,18 +26,12 @@ const Slider = () => {
             <Swiper
                 spaceBetween={40}
                 centeredSlides={true}
-                slidesPerGroup={1}
-                slidesPerView={8}
+                slidesPerView={1}
                 loop={true}
-                mousewheel={{
-                    pauseOnMouseEnter: false,
-                }}
-                loopFillGroupWithBlank={true}
                 autoplay={{
-                    delay: 100,
+                    delay: 2500,
                     disableOnInteraction: false,
-
-
+                    pauseOnMouseEnter:false,
 
                 }}
 
@@ -66,98 +60,98 @@ const Slider = () => {
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
+
+                
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
+
+
+                
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c3} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
+
+                
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c4} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
+
+                
+         
+          
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
-                    </Box>
-                </SwiperSlide>
-
-
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c3} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c6} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c4} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
+
+                
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
 
-
-
+                
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c3} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
-
+                
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c6} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c4} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
-
+                
+         
+          
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
-                    </Box>
-                </SwiperSlide>
-
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
-                    </Box>
-                </SwiperSlide>
-
-
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c3} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
 
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c4} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
+                        <img src={c6} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
-
-
-
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
-                    </Box>
-                </SwiperSlide>
-
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c6} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)" }} />
-                    </Box>
-                </SwiperSlide>
-
-
-
-
-
-
+                
+              
+                
+              
+            
+                
             </Swiper>
 
 
