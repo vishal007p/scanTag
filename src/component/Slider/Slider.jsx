@@ -8,11 +8,18 @@ import { Autoplay } from 'swiper/modules';
 import { Box } from "@mui/material";
 
 import c1 from '../../assets/c1.png'
-import c2 from '../../assets/c2.png'
+ 
 import c3 from '../../assets/c3.png'
 import c4 from '../../assets/c4.png'
-import c5 from '../../assets/c5.png'
+ 
 import c6 from '../../assets/c6.png'
+import c7 from '../../assets/c7.png'
+import c8 from '../../assets/c8.png'
+import c9 from '../../assets/c9.png'
+import c10 from '../../assets/c10.png'
+import c11 from '../../assets/c11.png'
+ 
+import c13 from '../../assets/c13.png'
 
 
 
@@ -58,19 +65,15 @@ const Slider = () => {
                 }}
             >
 
+                
+
+
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
                         <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
-
-                
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
-                    </Box>
-                </SwiperSlide>
-
+ 
 
                 
                 <SwiperSlide>
@@ -89,12 +92,7 @@ const Slider = () => {
                 
          
           
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
-                    </Box>
-                </SwiperSlide>
-
+                
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
@@ -102,52 +100,41 @@ const Slider = () => {
                     </Box>
                 </SwiperSlide>
 
-
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c1} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
-                    </Box>
-                </SwiperSlide>
-
                 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c2} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                        <img src={c7} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
-
-
-                
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c3} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                        <img src={c8} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
-
-                
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c4} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                        <img src={c9} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
-
-                
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c10} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}   />
+                    </Box>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Box sx={{ textAlign: 'center' }}>
+                        <img src={c11} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                    </Box>
+                </SwiperSlide>
          
-          
-                <SwiperSlide>
-                    <Box sx={{ textAlign: 'center' }}>
-                        <img src={c5} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
-                    </Box>
-                </SwiperSlide>
-
 
                 <SwiperSlide>
                     <Box sx={{ textAlign: 'center' }}>
-                        <img src={c6} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
+                        <img src={c13} alt="" style={{ mixBlendMode: "multiply", filter: "contrast(1)"}}/>
                     </Box>
                 </SwiperSlide>
                 
-              
+            
                 
               
             

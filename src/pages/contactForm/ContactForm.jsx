@@ -7,7 +7,7 @@ import NumberCounter from 'number-counter';
 const ContactForm = () => {
     return (
         <>
-            <Box sx={{ backgroundColor: "#282828", marginBottom: '60px' }}  id="contact">
+            <Box sx={{ backgroundColor: "#282828", marginBottom: '60px' }}   >
                 <Box
                     sx={{
                         width: { md: "60%", sm: '80%', xs: '100%' },
@@ -37,7 +37,7 @@ const ContactForm = () => {
                             <Box className="ContactImgBox">
                                 <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' ,  }}>
                                     <CallIcon sx={{ backgroundColor: 'white', width: '40px', height: '40px', borderRadius: '50%', padding: '7px' }} />
-                                    <h6 style={{ color: 'white', fontSize: '1.6rem', marginLeft: '10px' }} > +012-345-6789</h6>
+                                    <h6 style={{ color: 'white', fontSize: '1.6rem', marginLeft: '10px' }} > +91  8460039457</h6>
                                 </Box>
                             </Box>
                         </Grid>

@@ -18,9 +18,11 @@ const InputField = ({placeholder,label, register,type}) => {
               borderRadius: "5px",
               border: "2px solid #282828",
               marginTop:'10px'
+
             
             }}
             {...register}
+            required
            
           />
         </Box>

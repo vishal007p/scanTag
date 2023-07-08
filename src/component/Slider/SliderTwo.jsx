@@ -15,6 +15,8 @@ import Port3 from '../../assets/port3.png';
 import Port4 from '../../assets/port4.png';
 import Port5 from '../../assets/port5.png';
 import Port6 from '../../assets/port6.png';
+import Port7 from '../../assets/port7.png';
+import Port8 from '../../assets/port8.png';
 
 
 
@@ -148,6 +150,38 @@ const SliderTwo = () => {
                             <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 25px', borderRadius: '30px' }}>
                                 <Box>
                                     <span style={{ color: 'white' }}>3ENDTSHOP</span>
+                                </Box>
+                                <Box>
+                                    <AddIcon sx={{ color: 'white' }} />
+                                </Box>
+
+                            </Box>
+                        </Box>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                            <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <img src={Port7} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                            </Box>
+                            <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 25px', borderRadius: '30px' }}>
+                                <Box>
+                                    <span style={{ color: 'white' }}>Edelivery</span>
+                                </Box>
+                                <Box>
+                                    <AddIcon sx={{ color: 'white' }} />
+                                </Box>
+
+                            </Box>
+                        </Box>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Box sx={{ width: "100%", display: "flex", flexDirection: "column", justifyContent: 'center' }}>
+                            <Box sx={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <img src={Port8} alt="" style={{ width: '90%', height: "100%", borderRadius: '10px 10px 0px 0px' }} />
+                            </Box>
+                            <Box sx={{ background: '#282828', width: '100%', height: '10%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 25px', borderRadius: '30px' }}>
+                                <Box>
+                                    <span style={{ color: 'white' }}>Translink</span>
                                 </Box>
                                 <Box>
                                     <AddIcon sx={{ color: 'white' }} />
