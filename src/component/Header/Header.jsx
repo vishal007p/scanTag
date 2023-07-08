@@ -1,16 +1,16 @@
 
 import '../../styles/index.scss'
 import Logo from '../../assets/logo.png';
- 
+
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
- 
+
 import InstagramIcon from '@mui/icons-material/Instagram';
- 
+
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
- import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
 
- 
+
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 
@@ -41,9 +41,6 @@ const Header = () => {
                 <div className='logo'>
                     <img src={Logo} alt="logo" />
                 </div>
-
- 
-
 
 
                 {/* --main menu-- */}
