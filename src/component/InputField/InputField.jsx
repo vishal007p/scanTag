@@ -1,6 +1,6 @@
 import { Box, InputBase,   } from "@mui/material";
 
-const InputField = ({placeholder,label, register,type}) => {
+const InputField = ({placeholder,label, register,type, name}) => {
   return (
     <>
       <Box sx={{ width: "100%",    }}>
@@ -11,6 +11,7 @@ const InputField = ({placeholder,label, register,type}) => {
           <InputBase
             type={type}
             placeholder={placeholder}
+            name={name}
             style={{
               width: "100%",
               height: "100%",
@@ -21,7 +22,7 @@ const InputField = ({placeholder,label, register,type}) => {
 
             
             }}
-            {...register}
+          
             required
            
           />

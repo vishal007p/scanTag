@@ -1,34 +1,10 @@
 import { Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
-import { useEffect, useState } from "react";
-import { db } from "../firebase";
-import { collection, getDocs } from "firebase/firestore";
-
+ 
 
 
 const UserList = () => {
 
-
-    const [data, setData] = useState([]);
-
-
-
-    const getUserdataFun = async () => {
-        const querySnapshot = await getDocs(collection(db, "user"));
-        const fetchedData = [];
-        querySnapshot.forEach((doc) => {
-            const id = doc.id;
-            const data = doc.data();
-            fetchedData.push({ id, ...data })
-
-        });
-        setData(fetchedData)
-
-    }
-
-    useEffect(() => {
-        getUserdataFun();
-    }, []);
-
+ 
 
 
 
@@ -57,9 +33,8 @@ const UserList = () => {
                         </TableHead>
                         <TableBody>
 
-                            {
-                                data?.map((user, i) => (
-                                    <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }} key={i}>
+                          
+                                    {/* <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }} key={i}>
                                         <TableCell align="left">{user.id}</TableCell>
                                         <TableCell align="left">{user.name}</TableCell>
                                         <TableCell align="left">{user.email}</TableCell>
@@ -67,12 +42,9 @@ const UserList = () => {
                                         <TableCell align="left">{user.service}</TableCell>
                                         <TableCell align="left">{user.message}</TableCell>
                                     </TableRow>
+ */}
 
-
-                                ))
-                            }
-
-
+                           
                         </TableBody>
                     </Table>
                 </TableContainer>
