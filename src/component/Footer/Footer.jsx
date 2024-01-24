@@ -38,9 +38,9 @@ const Footer = () => {
                 >
                   <CallIcon
                     sx={{
-                      color: "#00C3D4",
+                      color: "#525CEB",
                       fontSize: "2.5rem",
-                      backgroundColor: "white",
+                      backgroundColor: "#E9F6FF",
                       borderRadius: "50%",
                       padding: "6px",
                     }}
@@ -57,7 +57,7 @@ const Footer = () => {
                       marginTop: "5px",
                     }}
                   >
-                   +91 8460039457
+                   +91 9313212322
                   </h6>
                 </Box>
               </Box>
@@ -87,9 +87,9 @@ const Footer = () => {
                 >
                   <EmailIcon
                     sx={{
-                      color: "#00C3D4",
+                      color: "#525CEB",
                       fontSize: "2.5rem",
-                      backgroundColor: "white",
+                      backgroundColor: "#E9F6FF",
                       borderRadius: "50%",
                       padding: "6px",
                     }}
@@ -106,7 +106,7 @@ const Footer = () => {
                       marginTop: "5px",
                     }}
                   >
-                  abhishek@scan-tag.com
+                  support@serv-you.com
                   </h6>
                 </Box>
               </Box>
@@ -132,9 +132,9 @@ const Footer = () => {
                 >
                   <AccessTimeIcon
                     sx={{
-                      color: "#00C3D4",
+                      color: "#525CEB",
                       fontSize: "2.5rem",
-                      backgroundColor: "white",
+                      backgroundColor: "#E9F6FF",
                       borderRadius: "50%",
                       padding: "6px",
                     }}
@@ -176,7 +176,7 @@ const Footer = () => {
                   padding: { md: "20px", sm: "0px", xs: "0px" },
                 }}
               >
-                <img src={Logo} alt="" style={{ width: "80%" }} />
+                <img src="/logo.png" alt="" style={{ width: "80%" }} />
 
                 <p style={{ color: "white", marginTop: "20px" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
@@ -201,10 +201,9 @@ const Footer = () => {
                   >
                     <WhereToVoteIcon
                       sx={{
-                        color: "#00C3D4",
+                        color: "#525CEB",
                         fontSize: "2.5rem",
-                        backgroundColor: "white",
-
+                        backgroundColor: "#E9F6FF",
                         borderRadius: "50%",
                         padding: { md: "5px", sm: "0px", xs: "0px" },
                       }}
@@ -218,7 +217,7 @@ const Footer = () => {
                         marginTop: "5px",
                       }}
                     >
-                      1791 Yorkshire Circle Kitty Hawk, NC 279499
+                      Loaction Gujrat Vadodara
                     </h6>
                   </Box>
                 </Box>
@@ -296,7 +295,7 @@ const Footer = () => {
                     padding: "10px",
                     marginTop: "40px",
                     width: "100%",
-                    border: "1px solid #00C3D4",
+                    border: "1px solid #525CEB",
                     borderRadius: "40px",
                     display: "flex",
                     alignItems: "center",
@@ -314,7 +313,7 @@ const Footer = () => {
                     <NearMeIcon
                       sx={{
                         padding: "8px",
-                        color: "#00C3D4",
+                        color: "#525CEB",
                         background: "white",
                         width: "40px",
                         height: "40px",

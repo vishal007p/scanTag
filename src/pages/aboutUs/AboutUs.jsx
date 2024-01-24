@@ -55,27 +55,27 @@ const AboutUs = () => {
 
                                 <ul>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         Which Means As The Company Ramps
                                     </li>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         Available In 14.1-In. And 16-In. Versions.
                                     </li>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         The Potential Loss Of The Touch Bar.
                                     </li>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         High-Speed USB 4.0.
                                     </li>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         The Potential Loss Of The Touch Bar.
                                     </li>
                                     <li>
-                                        <DoneIcon sx={{ marginRight: '10px', color: '#00C3D4' }} />
+                                        <DoneIcon sx={{ marginRight: '10px', color: '#F4CE14' }} />
                                         Available In 14.1-In. And 16-In. Versions.
                                     </li>
 
@@ -91,7 +91,7 @@ const AboutUs = () => {
             </Box>
 
 
-            <Box sx={{ width: '100%', height: '300px', backgroundColor: '#e5eef6', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Box sx={{ width: '100%', height: '300px', backgroundColor: '#E9F6FF', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
                 <Box sx={{ width: { md: '70%', sm: '90%', xs: '90%' }, margin: 'auto' }}>
 

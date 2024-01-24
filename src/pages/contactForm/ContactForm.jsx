@@ -7,7 +7,7 @@ import NumberCounter from 'number-counter';
 const ContactForm = () => {
     return (
         <>
-            <Box sx={{ backgroundColor: "#282828", marginBottom: '60px' }}   >
+            <Box sx={{ backgroundColor: "#525CEB", marginBottom: '60px' }}   >
                 <Box
                     sx={{
                         width: { md: "60%", sm: '80%', xs: '100%' },

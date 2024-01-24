@@ -1,4 +1,4 @@
-import { Box, Button, Grid } from "@mui/material";
+import { Box } from "@mui/material";
 import { experimentalStyled as styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Img2 from '../../assets/img2.png'
@@ -16,6 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
     display: 'flex',
     alignItems: 'center', justifyContent: 'center'
 }));
+
 const Contact = () => {
     return (
         <>

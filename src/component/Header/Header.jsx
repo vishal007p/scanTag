@@ -1,7 +1,6 @@
 
 import '../../styles/index.scss'
-import Logo from '../../assets/logo.png';
-
+ 
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -39,7 +38,7 @@ const Header = () => {
 
                 {/* --logo-- */}
                 <div className='logo'>
-                    <img src={Logo} alt="logo" />
+                    <img src="/logo.png" alt="logo" />
                 </div>
 
 
@@ -83,8 +82,8 @@ const Header = () => {
                     <div className='mainMenuList2'>
 
                         <ul>
-                            <a href="https://wa.me/+918460039457"> <li><CallIcon sx={{ marginRight: '10px' }} />+91  8460039457</li></a>
-                            <a href="mailto:abhishek@scan-tag.com<">   <li><EmailIcon sx={{ marginRight: '10px' }} />abhishek@scan-tag.com</li></a>
+                            <a href="https://wa.me/+919313212322"> <li><CallIcon sx={{ marginRight: '10px' }} />+91  9313212322</li></a>
+                            <a href="mailto:support@serv-you.com">   <li><EmailIcon sx={{ marginRight: '10px' }} />support@serv-you.com</li></a>
                             <li><FacebookOutlinedIcon sx={{ color: 'white' }} /></li>
                             <li><InstagramIcon sx={{ color: 'white' }} /></li>
 

@@ -18,7 +18,7 @@ body {
 
 // ---color--
 $lightGray: #262626;
-$blue: #00C3D4;
+$blue: #525CEB;
 $black: #121212;
 
 
@@ -246,7 +246,7 @@ html {
                             left: 6%;
                             height: 100%;
                             width: 100%;
-                            border: 4px solid #00C3D4;
+                            border: 4px solid #F4CE14;
                             border-radius: 300px 300px 0px 0px;
                             z-index: 999;
                             border: 5px solid $blue;
@@ -355,7 +355,7 @@ html {
                 font-size: 1.3rem;
                 font-weight: 0;
                 margin-bottom: 0px;
-                color: $blue;
+                color: #F4CE14;
                 display: inline-block;
             }
 
@@ -467,7 +467,7 @@ html {
 // --------counter---
 
 .counter {
-    color: $blue;
+    color: white;
     font-size: 2.5rem;
     display: flex;
     align-items: center;

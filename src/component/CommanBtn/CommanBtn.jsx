@@ -7,12 +7,12 @@ const CommanBtn = ({ link, text, type }) => {
         sx={{
           width: "100%",
           height: "100%",
-          backgroundColor: "#00C3D4",
+          backgroundColor: "#F4CE14",
           borderRadius: "5px",
-          color: "white",
+          color: "black",
           fontSize:'1rem',
           fontWeight:'600',
-          ":hover": { backgroundColor: "#00C3D4" },
+          ":hover": { backgroundColor: "#F4CE14" },
         }}
         type="submit"
       >

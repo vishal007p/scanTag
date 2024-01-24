@@ -17,7 +17,7 @@ const Services = () => {
 
         <>
 
-            <Box sx={{ width: '100%', backgroundColor: '#00C3D4', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', position: 'relative', zIndex: '999', height: { md: '250px', sm: '100%', xs: '100%' }, padding: '20px' }}>
+            <Box sx={{ width: '100%', backgroundColor: '#525CEB', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', position: 'relative', zIndex: '999', height: { md: '250px', sm: '100%', xs: '100%' }, padding: '20px' }}>
 
 
                 <Box sx={{ width: { md: '75%', sm: '90%', xs: '100%' }, marginTop: { xs: '0px', sm: '0px', md: '-70px' }, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
